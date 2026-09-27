@@ -22,7 +22,7 @@ document.querySelectorAll('.js-open-booking').forEach((button) => {
   button.addEventListener('click', () => {
     mainNav.classList.remove('is-open');
     menuToggle.setAttribute('aria-expanded', 'false');
-    menuToggleLabel.textContent = 'Abrir menú';
+    menuToggleLabel.textContent = 'Abrir men�';
     bookingDialog.showModal();
   });
 });
@@ -35,7 +35,7 @@ bookingDialog.addEventListener('click', (event) => {
 menuToggle.addEventListener('click', () => {
   const open = menuToggle.getAttribute('aria-expanded') !== 'true';
   menuToggle.setAttribute('aria-expanded', String(open));
-  menuToggleLabel.textContent = open ? 'Cerrar menú' : 'Abrir menú';
+  menuToggleLabel.textContent = open ? 'Cerrar men�' : 'Abrir men�';
   mainNav.classList.toggle('is-open', open);
 });
 
@@ -43,7 +43,7 @@ mainNav.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
     mainNav.classList.remove('is-open');
     menuToggle.setAttribute('aria-expanded', 'false');
-    menuToggleLabel.textContent = 'Abrir menú';
+    menuToggleLabel.textContent = 'Abrir men�';
   });
 });
 
@@ -71,18 +71,18 @@ bookingForm.addEventListener('submit', (event) => {
   const formData = new FormData(bookingForm);
   const dishes = formData.getAll('dishes').filter((dish) => dish !== 'Otro plato');
   if (formData.get('other-dish')) dishes.push(`Otro: ${formData.get('other-dish')}`);
-  const dishText = dishes.length ? dishes.join(', ') : 'Quiero conversar sobre el menú';
+  const dishText = dishes.length ? dishes.join(', ') : 'Quiero conversar sobre el men�';
   const rawDate = formData.get('preferred-date');
   const dateText = rawDate
     ? new Date(`${rawDate}T00:00:00`).toLocaleDateString('es-PE', { day: 'numeric', month: 'long', year: 'numeric' })
     : 'Por coordinar';
   const message = [
-    '¡Hola, Mesa Criolla! Quisiera consultar por el servicio piloto de cocina en casa.',
+    '�Hola, Mesa Criolla! Quisiera consultar por el servicio piloto de cocina en casa.',
     `Distrito: ${formData.get('district')}`,
     `Personas: ${formData.get('diners')}`,
-    `Platos de interés: ${dishText}`,
+    `Platos de inter�s: ${dishText}`,
     `Fecha tentativa: ${dateText}`,
-    '¿Podrían confirmarme cobertura, disponibilidad y precio?',
+    '�Podr�an confirmarme cobertura, disponibilidad y precio?',
   ].join('\n');
 
   window.location.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
