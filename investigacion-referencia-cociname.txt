@@ -1,0 +1,65 @@
+﻿INVESTIGACIÓN DE REFERENCIA WEB
+Fecha de revisión: 2026-09-27
+Referencia: https://cociname.pe/
+Alcance: página de inicio, contenido visible, interfaz y señales técnicas observables.
+
+1. RESUMEN
+Cociname ofrece cocineras a domicilio que preparan comida para varios días. La portada comunica el beneficio principal (resolver las comidas de la semana), explica el proceso, genera confianza con testimonios y preguntas frecuentes, y dirige a reservar. Tiene bastante contenido y varios módulos de terceros; sirve como inspiración para el recorrido comercial, pero una primera versión puede ser más breve.
+
+2. ESTILO VISUAL OBSERVADO
+- Identidad cálida, casera y enérgica: predominan tonos naranjas y coral, fondos crema/blancos, texto oscuro y botones de acción muy visibles.
+- El hero ocupa gran parte de la primera pantalla: bloque naranja con titular y texto a la izquierda, fotografía/video de una cocinera trabajando a la derecha.
+- Navegación superior clara, con marca a la izquierda, enlaces secundarios y botón “Reservar” destacado a la derecha. Hay además una franja promocional encima del menú.
+- Tipografía sans serif redondeada/geométrica; titulares grandes, ligeros y con saltos de línea marcados.
+- Secciones amplias y separadas, tarjetas visuales, esquinas redondeadas y uso de fotografía real para dar cercanía.
+- La página combina fondos claros y secciones de acento. En el pie aparecen enlaces corporativos, legales, redes y suscripción.
+- Elementos flotantes: chat de atención y banner promocional inferior/superior según estado de la página.
+- Paleta estimada visualmente (no extraída como tokens exactos): naranja brillante, coral/rojo cálido, crema claro, blanco y gris azulado oscuro.
+
+3. ESTRUCTURA Y CONTENIDO
+Orden observado en la portada:
+1) Franja promocional y navegación principal.
+2) Hero: “Deja de pensar qué comer toda la semana”, explicación del servicio, video/foto y CTA “¿Cómo funciona?”.
+3) Resumen de la propuesta y resultados esperados (comidas para 4–5 días, una visita, precio de entrada).
+4) Proceso en tres pasos: elegir comida/fecha, recibir a la cocinera, tener la semana lista.
+5) Video demostrativo.
+6) Testimonios con puntuación, nombre y perfil.
+7) Indicadores de confianza/volumen de servicios.
+8) FAQ sobre precios, confianza, ingredientes, conservación, utensilios y dietas.
+9) CTA de cierre para empezar/reservar.
+10) Ayuda/asesoría, calendario de citas integrado.
+11) Pie con garantías, navegación, suscripción, legal y redes.
+
+4. SEÑALES TÉCNICAS OBSERVABLES
+- El HTML identifica WordPress (meta generator observado: WordPress 7.1.2).
+- Clases de página y cuerpo identifican el tema Hello Elementor y Elementor; la página usa una plantilla de ancho completo de Elementor.
+- La portada incrusta contenido de YouTube y Vimeo, y un calendario de Cal.com.
+- Hay scripts de analítica/marketing visibles asociados a Google Tag Manager/Google Analytics, Meta, Microsoft Clarity y otros servicios, además del chat Kommo.
+- Esto describe solo señales públicas vistas en la portada, no una auditoría del servidor, código fuente completo, seguridad, rendimiento ni configuración interna.
+- No es necesario replicar el mismo stack para un proyecto nuevo. Se puede lograr la apariencia con la tecnología que mejor encaje con el proyecto.
+
+5. QUÉ FUNCIONA COMO REFERENCIA
+- El beneficio aparece antes que los detalles del servicio.
+- El botón principal es fácil de encontrar y usa un verbo claro.
+- El proceso se entiende sin leer demasiado.
+- Imágenes reales, reseñas y respuestas a dudas ayudan a reducir la incertidumbre.
+- La repetición del CTA facilita pasar de la lectura a la reserva.
+
+6. PROPUESTA PARA UNA PRIMERA VERSIÓN MÁS LIGERA
+Mantener la calidez y claridad, reduciendo módulos:
+- Menú con marca, 2–3 enlaces (por ejemplo: Cómo funciona, Menú, Contacto) y un CTA.
+- Hero con una sola foto de calidad, una frase concreta, un párrafo breve y un botón.
+- Tres pasos resumidos en tarjetas sencillas.
+- Una sección breve de menú/servicio con 3–4 opciones o categorías.
+- Dos testimonios reales, solo si ya se cuenta con autorización para publicarlos.
+- FAQ de 3–5 preguntas frecuentes.
+- CTA final y pie con contacto y redes.
+- Posponer calendario integrado, video, newsletter, chat automatizado, estadísticas promocionales y páginas legales extensas hasta que el negocio lo requiera.
+- Usar contenido auténtico del nuevo proyecto; no copiar textos, marca, fotografías, testimonios, estructura gráfica exacta ni datos comerciales de Cociname.
+- Asegurar diseño adaptable a móvil y que el CTA principal dirija a un canal real de contacto/reserva.
+
+7. PENDIENTES PARA DEFINIR EL PROYECTO PROPIO
+Antes de redactar textos o construir la página, definir: nombre y tipo de negocio, público objetivo, zona de atención, oferta inicial, proceso de compra/reserva, canal de contacto, precios (si se mostrarán), identidad visual y materiales propios disponibles.
+
+Fuente principal: https://cociname.pe/
+
